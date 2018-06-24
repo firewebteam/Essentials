@@ -1,8 +1,8 @@
-import smtplib
+﻿import smtplib
 '''Wysyłanie maila'''
-
+# WAZNE program wymaga aby zezwolic mniej bezpiecznym aplikacjom na dostęp do konta https://myaccount.google.com/lesssecureapps
 content= 'Siema, tu Agent997, sprawdzam maila'
-username = 'adresnadawcy@gmail.com'    #konieczne jest
+username = 'adresnadawcy@gmail.com'    #konieczne jest podanie adresu z ktorego sie wysyla i hasla
 #pswd = 'mojehaslo'
 receiver = 'adresodbiorcy@gmail.com'
 
